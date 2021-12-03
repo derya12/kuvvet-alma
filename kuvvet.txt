@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class kuvvet {
+    public static void main(String[] args) {
+        int k,i,l,j;
+        Scanner scan = new Scanner(System.in);
+        System.out.print("4'ün kuvveti için sınır sayıyı giriniz :");
+        k = scan.nextInt();
+        System.out.print("5'in kuvveti için sınır sayıyı giriniz :");
+        l = scan.nextInt();
+        System.out.println("4'ün kuvvetleri:");
+        for ( i=1; i<=k; i*=4){
+            System.out.println(i);
+        }
+        System.out.println("5'in kuvvetleri:");
+        for ( j=1; j<=l; j*=5){
+            System.out.println(j);
+
+        }
+
+
+
+    }
+}
